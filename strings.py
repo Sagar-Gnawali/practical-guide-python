@@ -8,6 +8,7 @@ print(data.lower())  # programming
 print(data.replace('g', 'G'))  # proGramminG
 print(data.find('m'))  # 6 (index of first occurrence)
 print(data.find('z'))  # -1 (not found)
+print('z' in data)  # return False because 'z' is not in data
 print(data.split('m'))  # ['progra', 'min', 'g']
 print(data.startswith('pro'))  # True
 print(data.endswith('ing'))  # True
