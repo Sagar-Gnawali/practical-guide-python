@@ -23,6 +23,7 @@
 
 # REPL
 
+- The REPL is a feature provided by CPython, not the implementation itself.
 - REPL Stands for Read, Evaluate, Print and Loop. It allows you to interactively type in Python program line-by-line.
 - Note , in the REPL three arrows `>>>` indicate a line of input given at the prompt
 - In the REPL # will be ignored
@@ -216,3 +217,23 @@ The types are object under the hood we can also declare them by calling the cons
 
 - import from random (it will imports all the module)
 - from random import randint (it will import only randint)
+
+# Code formatting
+
+- Python pep
+- the 8 pep is important/famous which says `Style Guide for Python` [Docs](https://peps.python.org/pep-0008/)
+- It is basically documents which defines a buch of rules for formatting and styling the code
+
+# Implementations of Python
+
+- Jython -> Java: it allows use to reuse some Java Code in the python program.
+- IronPython -> c#
+- PyPy -> Subset of python
+
+# Comparison operator
+
+- `in` and `not in`
+
+# Identity operator
+
+- `is` and `is not`
