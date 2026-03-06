@@ -16,4 +16,5 @@ print(data.isdigit())  # False (not only digits)
 print(data.isalnum())  # True (only letters and digits)
 print(len(data))  # 11
 print(" Test data. ".strip())  # to remove leading and trailing whitespace
+print("python programming".title())  # Python Programming
 print(data)
