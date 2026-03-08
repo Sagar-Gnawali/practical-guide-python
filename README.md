@@ -53,6 +53,7 @@
 # Special name
 
 - print(f"{data}")
+- print(F"{data}") capital F is also consider
 - print(r"") for regular expression
 - print(b"") for byte String
 
@@ -86,6 +87,12 @@
 - b=90.2
 - c= 0. (this is also valid float)
 - type(c)
+- nan is also float type
+
+```python
+ a = float('nan')
+ print(type(a))
+```
 
 ## Complex number
 
