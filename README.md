@@ -105,6 +105,11 @@ The types are object under the hood we can also declare them by calling the cons
 - a = int(5)
 - b = float(9)
 - c = complex(89)
+- d = str(123) '123'
+- e = bool(0) false
+- f = list('lst')
+- g = set('set')
+- h =. dict(a=10,b=129,c=20)
 
 # Math or number methods
 
