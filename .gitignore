@@ -1,8 +1,22 @@
 # Environments
-.env
-.venv
-env/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
 venv/
-ENV/
-env.bak/
-venv.bak/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb.layout
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
